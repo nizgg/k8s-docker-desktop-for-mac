@@ -18,6 +18,17 @@
 
 ![mirror](./image/mirror.png)
 
+```json
+{
+  "insecure-registries": [],
+  "registry-mirrors": [
+    "https://dockerhub.azk8s.cn"
+  ],
+  "experimental": true,
+  "debug": true
+}
+```
+
 3. 从 `Docker Hub` 的同步仓库中取回，并重新打上原始的`tag`.
 
 ```bash
